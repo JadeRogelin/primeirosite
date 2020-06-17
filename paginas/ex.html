@@ -1,0 +1,231 @@
+<a href="../index.Html"  >HTML </a>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testes HTML</title>
+</head>
+
+<!-- Corpo do site: Conteúdo do Site -->
+
+<body>
+    <!-- Exemplos de Formatação de Texto-->
+     <h2 id="formatação">Exemplos de Formatação de listas</h2>
+ <u> 
+     <li>item 1</li>
+     <li>item 2</li>
+     <li>item 3</li>
+ </u>
+     
+ <ol>
+     <li>item 1</li>
+     <ul>
+        <li>primeiro item 1</li>
+        <li>primeiro item 2</li>
+        <li>primeiro item 3</li>
+     </ul>
+     <li>item 2</li>
+     <li>item 3</li>
+
+ </ol>
+
+  <dl>
+     <dt>titulo da lista</dt>
+     <dd>
+         lorem, ipsum
+     </dd>
+
+<dt> navegador</dt>
+<dd>
+    lorem, ipsum
+</dd>
+  </dl>
+
+  <h2>Exemplos de Formatação de Textos</h2>
+  <ul>
+       <li>
+           <b>texto negrito</b>
+         </li>
+       <li>
+            <strong>texto forte</strong>
+       </li>
+
+        <li>
+             <em>texto mnfatizado</em>
+        </li>
+
+        <li>
+              <i>texto italico</i>
+        </li>
+
+         <li>
+             <mark>texto frifado</mark>
+        </li>
+
+         <li>
+             <big>texto grande</big>
+        </li>
+        <li>
+             <small>texto pequeno</small>
+        </li>
+        <li>
+             <del>texto taxado</del>
+        </li>
+        <li>
+            <ins>texto inserido</ins>
+        </li>
+        <li>
+            <u>texto sublinhado</u>
+        </li>
+        <li>
+          esse éum<sub>texto subscrito</sub>
+        </li>
+        <li>
+            esse é um<sup>testo obreescrito</sup>
+        </li>
+  </ul>
+
+    <h2>Exemplos de links</h2>
+ 
+     <!-- link para outro site-->
+    
+     <p>
+         <!-- o atributo target=" abre a pagina em uma nova aba do navegador -->
+         Visete o site da <a href="https://www.proway.com.br" target="_blank">Proway</a>
+     </p>
+
+     <!-- link para um bookmark da própria página-->
+     <p>
+         vá até a area de exemplos de <a href="#formatação">formatação</a>
+     </p>
+
+      <!-- link para um bookmark da outra página-->
+    <p>
+       nasessão <a href="https://serasa.proway.com.br/#faq" target="_blank">perguntas frequentes</a> do projeto serasa da proway você encontra as respostas.
+    </p>
+  
+      <!--link para uma página do próprio site-->
+    <p>
+        a descrição do curso se encontra na <a href="../index.html">página principal</a> deste site.
+    </p>
+
+     <p>
+         <!--Link em uma imagem/figura-->
+            <figure>
+                <a href="https://pt.wikipedia.org/wiki/COBOL">
+                 <img src="../img/cobol.png" alt="dinosauro da programação" width=100> 
+                </a><br>
+                <figcapture>COBOL</figcapture>
+            </figure> 
+     
+            <!-- Link para E-mail-->
+            <p>
+                Gostou de nossa oferta? entre em <a href="mailto:ivan.borchardt.cobol@gmail.com?subject=Contato&body=estou estrando em contato referente a oferta">contato</a>!
+            </p>
+     </p>
+
+     <h2>Exemplo de tabelas</h2>
+
+     <!-- Tabela com 2 linhas de dados, 1 linha de cabeçalho e 2 colunas -->
+     <table border=1 width=100%>
+        <tr>
+            <th>cabeçalho 1</th>
+            <th>cabeçalho 2</th>
+        </tr>
+    
+        <tr><td><center>linha2, coluna 1</center></td><td><center>linha 2, coluna 1</center></td></tr>
+        <tr><td><aling></aling>linha 1,coluna 1</aling></td><td><right>linha 1, coluna 2</right></td></tr> 
+     </table>
+     <BR><BR>
+
+     <table border=2>
+         
+        <tr>
+           <td>linha 1, coluna 1</td>
+           <td>linha 1, coluna 2</td>
+        </tr>
+        <tr>
+            <td>linha 2, coluna 1</td>
+            <td>linha 2, coluna 2</td>
+            </tr>
+    </table>
+    <BR><BR>
+
+ <!-- tabela com exemplo de colunas mescladas usando o colspan -->
+    <table border=1>
+        <tr>
+            <th>coluna 1</th>
+            <th>coluna 2</th>
+            <th>coluna 3</th>
+        </tr>
+        <tr>
+            <td> linha 1, culuna 1</td>
+            <td> linha 1, coluna 2</td>
+            <td> linha 1, coluna 3</td>
+        </tr>
+        <tr>
+            <td colspan="2">linha 2, coluna 1</td>
+            <td>linha 2, coluna 2</td>
+        </tr>
+    </table>
+    <BR><BR>
+
+ <!-- tabela com exemplo de linhas mescladas usando o rowspan -->
+    <table border=1>
+        <tr>
+            <th>coluna 1</th>
+            <th>coluna 2</th>
+            <th>coluna 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2"> linha 1, culuna 1</td>
+            <td> linha 1, coluna 2</td>
+            <td> linha 1, coluna 3</td>
+        </tr>
+        <tr>
+            <td>linha 2, coluna 1</td>
+            <td>linha 2, coluna 2</td>
+        </tr>
+    </table>
+    <BR><BR>
+
+    <!--  -->
+
+    <center>
+    <table width=70% border=1 cellspacing="0" cellpadding="0" bgcolor="red" align="left">
+        <caption><strong><i>Nota Fria Papelaria</i></strong></caption>
+        <thead>
+            <tr>
+                <th width="50%" height="75">quantidade</th>
+                <th>descrição</th>
+                <th>preço unit.</th>
+                <th>preço total</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>2</td>
+            <td>lapis de cor</td>
+            <td>R$5,00</td>
+            <td>R$10,00</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>caderno brochura 60fl</td>
+            <td>R$3,00</td>
+            <td>R$12,00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+          <tr>
+              <td colspan="3"><b>Total</b></td>
+              <td>R$22,00</td>
+          </tr>
+      </tfoot>
+    </table>
+    <BR><BR>
+    </center>
+
+</body>
+</html>
